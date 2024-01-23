@@ -46,7 +46,7 @@ public class QuizFragment extends Fragment {
     }
 
     private void checkNext() {
-        if (position == allQuestion){
+        if (position == allQuestion) {
             getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout,
                     new ResultFragment(right, allQuestion)).commit();
             list.clear();
@@ -75,16 +75,16 @@ public class QuizFragment extends Fragment {
     }
 
     private void LoadQuestion() {
-        list.add(new QuizModel("Question 1", "Op1","Op2","Op3","Op4","Op2"));
-        list.add(new QuizModel("Question 2", "Op1","Op2","Op3","Op4","Op1"));
-        list.add(new QuizModel("Question 3", "Op1","Op2","Op3","Op4","Op3"));
-        list.add(new QuizModel("Question 4", "Op1","Op2","Op3","Op4","Op2"));
-        list.add(new QuizModel("Question 5", "Op1","Op2","Op3","Op4","Op4"));
+        list.add(new QuizModel("Question 1", "Op1", "Op2", "Op3", "Op4", "Op2"));
+        list.add(new QuizModel("Question 2", "Op1", "Op2", "Op3", "Op4", "Op1"));
+        list.add(new QuizModel("Question 3", "Op1", "Op2", "Op3", "Op4", "Op3"));
+        list.add(new QuizModel("Question 4", "Op1", "Op2", "Op3", "Op4", "Op2"));
+        list.add(new QuizModel("Question 5", "Op1", "Op2", "Op3", "Op4", "Op4"));
         allQuestion = 5;
         listSize = String.valueOf(allQuestion);
         binding.totalQuestionNum.setText("/" + listSize);
 
-        if (position != allQuestion){
+        if (position != allQuestion) {
             positionNo = String.valueOf(position + 1);
             binding.CurrentQuestionNum.setText(positionNo);
         } else {
@@ -100,7 +100,7 @@ public class QuizFragment extends Fragment {
         binding.option2.setText(quizModel.getOp2());
         binding.option3.setText(quizModel.getOp3());
         binding.option4.setText(quizModel.getOp4());
-        
+
         optionCheckUp();
 
 
@@ -109,7 +109,7 @@ public class QuizFragment extends Fragment {
     private void optionCheckUp() {
 
         binding.option1.setOnClickListener(v -> {
-            if (Objects.equals(quizModel.getOp1(),quizModel.getCorrectAns())){
+            if (Objects.equals(quizModel.getOp1(), quizModel.getCorrectAns())) {
                 right++;
                 binding.option1.setBackgroundResource(R.drawable.right_bg);
                 binding.option1.setTextColor(getContext().getColor(R.color.white));
@@ -123,7 +123,7 @@ public class QuizFragment extends Fragment {
         });
 
         binding.option2.setOnClickListener(v -> {
-            if (Objects.equals(quizModel.getOp2(),quizModel.getCorrectAns())){
+            if (Objects.equals(quizModel.getOp2(), quizModel.getCorrectAns())) {
                 right++;
                 binding.option2.setBackgroundResource(R.drawable.right_bg);
                 binding.option2.setTextColor(getContext().getColor(R.color.white));
@@ -137,7 +137,7 @@ public class QuizFragment extends Fragment {
         });
 
         binding.option3.setOnClickListener(v -> {
-            if (Objects.equals(quizModel.getOp3(),quizModel.getCorrectAns())){
+            if (Objects.equals(quizModel.getOp3(), quizModel.getCorrectAns())) {
                 right++;
                 binding.option3.setBackgroundResource(R.drawable.right_bg);
                 binding.option3.setTextColor(getContext().getColor(R.color.white));
@@ -151,7 +151,7 @@ public class QuizFragment extends Fragment {
         });
 
         binding.option4.setOnClickListener(v -> {
-            if (Objects.equals(quizModel.getOp4(),quizModel.getCorrectAns())){
+            if (Objects.equals(quizModel.getOp4(), quizModel.getCorrectAns())) {
                 right++;
                 binding.option4.setBackgroundResource(R.drawable.right_bg);
                 binding.option4.setTextColor(getContext().getColor(R.color.white));
@@ -176,16 +176,16 @@ public class QuizFragment extends Fragment {
 
     private void showRightAns() {
 
-        if (Objects.equals(quizModel.getOp1(),quizModel.getCorrectAns())){
+        if (Objects.equals(quizModel.getOp1(), quizModel.getCorrectAns())) {
             binding.option1.setBackgroundResource(R.drawable.right_bg);
             binding.option1.setTextColor(getContext().getColor(R.color.white));
-        } else if (Objects.equals(quizModel.getOp2(),quizModel.getCorrectAns())){
+        } else if (Objects.equals(quizModel.getOp2(), quizModel.getCorrectAns())) {
             binding.option2.setBackgroundResource(R.drawable.right_bg);
             binding.option2.setTextColor(getContext().getColor(R.color.white));
-        } else if (Objects.equals(quizModel.getOp3(),quizModel.getCorrectAns())){
+        } else if (Objects.equals(quizModel.getOp3(), quizModel.getCorrectAns())) {
             binding.option3.setBackgroundResource(R.drawable.right_bg);
             binding.option3.setTextColor(getContext().getColor(R.color.white));
-        } else if (Objects.equals(quizModel.getOp4(),quizModel.getCorrectAns())){
+        } else if (Objects.equals(quizModel.getOp4(), quizModel.getCorrectAns())) {
             binding.option4.setBackgroundResource(R.drawable.right_bg);
             binding.option4.setTextColor(getContext().getColor(R.color.white));
         }
