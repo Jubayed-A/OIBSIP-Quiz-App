@@ -17,7 +17,7 @@ public class ResultFragment extends Fragment {
     FragmentResultBinding binding;
     int right, allQuestion;
 
-    public ResultFragment(int right, int allQuestion){
+    public ResultFragment(int right, int allQuestion) {
         this.right = right;
         this.allQuestion = allQuestion;
     }
@@ -29,8 +29,8 @@ public class ResultFragment extends Fragment {
         binding = FragmentResultBinding.inflate(getLayoutInflater());
 
         binding.correct.setText(right + " Correct");
-        binding.wrong.setText(allQuestion-right + " Wrong");
-        binding.score.setText("You got "+right+ " out of " + allQuestion);
+        binding.wrong.setText(allQuestion - right + " Wrong");
+        binding.score.setText("You got " + right + " out of " + allQuestion);
 
         binding.exploreBtn.setOnClickListener(v -> {
             getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout,
