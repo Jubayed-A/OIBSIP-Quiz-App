@@ -111,84 +111,84 @@ public class SubFragment extends Fragment {
 
 
         switch (title) {
-            case "General Knowledge Category":
+            case "General Knowledge":
 
                 // Load data from string arrays
                 for (int i = 0; i < generalLength; i++) {
                     list.add(new HomeModel(generalCategory[i], generalDescription[i]));
                 }
                 break;
-            case "Science Category":
+            case "Science":
 
                 // Load data from string arrays
                 for (int i = 0; i < scienceLength; i++) {
                     list.add(new HomeModel(scienceCategory[i], scienceDescription[i]));
                 }
                 break;
-            case "Technology Category":
+            case "Technology":
 
                 // Load data from string arrays
                 for (int i = 0; i < technologyLength; i++) {
                     list.add(new HomeModel(technologyCategory[i], technologyDescription[i]));
                 }
                 break;
-            case "Entertainment Category":
+            case "Entertainment":
 
                 // Load data from string arrays
                 for (int i = 0; i < entertainmentLength; i++) {
                     list.add(new HomeModel(entertainmentCategory[i], entertainmentDescription[i]));
                 }
                 break;
-            case "Sports Category":
+            case "Sports":
 
                 // Load data from string arrays
                 for (int i = 0; i < sportsLength; i++) {
                     list.add(new HomeModel(sportsCategory[i], sportsDescription[i]));
                 }
                 break;
-            case "Literature Category":
+            case "Literature":
 
                 // Load data from string arrays
                 for (int i = 0; i < literatureLength; i++) {
                     list.add(new HomeModel(literatureSubCategory[i], literatureDescription[i]));
                 }
                 break;
-            case "Arts and Culture Category":
+            case "Arts and Culture":
 
                 // Load data from string arrays
                 for (int i = 0; i < artsAndCultureLength; i++) {
                     list.add(new HomeModel(artsAndCultureSubCategory[i], artsAndCultureDescription[i]));
                 }
                 break;
-            case "Food and Drink Category":
+            case "Food and Drink":
 
                 // Load data from string arrays
                 for (int i = 0; i < foodAndDrinkLength; i++) {
                     list.add(new HomeModel(foodAndDrinkSubCategory[i], foodAndDrinkDescription[i]));
                 }
                 break;
-            case "Mathematics Category":
+            case "Mathematics":
 
                 // Load data from string arrays
                 for (int i = 0; i < mathematicsLength; i++) {
                     list.add(new HomeModel(mathematicsSubCategory[i], mathematicsDescription[i]));
                 }
                 break;
-            case "Language and Words Category":
+            case "Language and Words":
 
                 // Load data from string arrays
                 for (int i = 0; i < languageAndWordsLength; i++) {
                     list.add(new HomeModel(languageAndWordsSubCategory[i], languageAndWordsDescription[i]));
                 }
                 break;
-            case "Nature and Environment Category":
+            case "Nature and Environment":
 
                 // Load data from string arrays
                 for (int i = 0; i < natureAndEnvironmentLength; i++) {
                     list.add(new HomeModel(natureAndEnvironmentSubCategory[i], natureAndEnvironmentDescription[i]));
                 }
                 break;
-            case "Mythology Category":
+            case "Mythology":
 
                 // Load data from string arrays
                 for (int i = 0; i < mythologyLength; i++) {
