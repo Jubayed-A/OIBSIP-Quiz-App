@@ -117,7 +117,6 @@
         <item>Literature Sub Category 2</item>
         <!-- Add more subcategories for Literature as needed -->
     </string-array>
-
     <string-array name="Literature_sub_category_description">
         <item>Description for Literature Sub Category 1</item>
         <item>Description for Literature Sub Category 2</item>
@@ -130,7 +129,6 @@
         <item>Arts and Culture Sub Category 2</item>
         <!-- Add more subcategories for Arts and Culture as needed -->
     </string-array>
-
     <string-array name="Arts_and_Culture_sub_category_description">
         <item>Description for Arts and Culture Sub Category 1</item>
         <item>Description for Arts and Culture Sub Category 2</item>
@@ -143,7 +141,6 @@
         <item>Food and Drink Sub Category 2</item>
         <!-- Add more subcategories for Food and Drink as needed -->
     </string-array>
-
     <string-array name="Food_and_Drink_sub_category_description">
         <item>Description for Food and Drink Sub Category 1</item>
         <item>Description for Food and Drink Sub Category 2</item>
@@ -156,7 +153,6 @@
         <item>Mathematics Sub Category 2</item>
         <!-- Add more subcategories for Mathematics as needed -->
     </string-array>
-
     <string-array name="Mathematics_sub_category_description">
         <item>Description for Mathematics Sub Category 1</item>
         <item>Description for Mathematics Sub Category 2</item>
@@ -169,7 +165,6 @@
         <item>Language and Words Sub Category 2</item>
         <!-- Add more subcategories for Language and Words as needed -->
     </string-array>
-
     <string-array name="Language_and_Words_sub_category_description">
         <item>Description for Language and Words Sub Category 1</item>
         <item>Description for Language and Words Sub Category 2</item>
@@ -182,7 +177,6 @@
         <item>Nature and Environment Sub Category 2</item>
         <!-- Add more subcategories for Nature and Environment as needed -->
     </string-array>
-
     <string-array name="Nature_and_Environment_sub_category_description">
         <item>Description for Nature and Environment Sub Category 1</item>
         <item>Description for Nature and Environment Sub Category 2</item>
@@ -195,7 +189,6 @@
         <item>Mythology Sub Category 2</item>
         <!-- Add more subcategories for Mythology as needed -->
     </string-array>
-
     <string-array name="Mythology_sub_category_description">
         <item>Description for Mythology Sub Category 1</item>
         <item>Description for Mythology Sub Category 2</item>
