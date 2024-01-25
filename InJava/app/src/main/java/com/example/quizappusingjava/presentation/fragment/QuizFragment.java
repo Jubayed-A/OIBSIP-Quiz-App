@@ -90,54 +90,48 @@ public class QuizFragment extends Fragment {
         String[] questions6 = getResources().getStringArray(R.array.famous_personalities_questions);
 
         // Check if position is within bounds
-        if (position < questions.length) {
-            // Load options for each question
-            String[] options1 = getResources().getStringArray(R.array.option1_world_geography_question);
-            String[] options2 = getResources().getStringArray(R.array.option2_world_geography_question);
-            String[] options3 = getResources().getStringArray(R.array.option3_world_geography_question);
-            String[] options4 = getResources().getStringArray(R.array.option4_world_geography_question);
 
-            // Load correct answers for each question
-            String[] correctOptions = getResources().getStringArray(R.array.world_geography_correctOptions);
+        // Load options for each question
+        String[] options1 = getResources().getStringArray(R.array.option1_world_geography_question);
+        String[] options2 = getResources().getStringArray(R.array.option2_world_geography_question);
+        String[] options3 = getResources().getStringArray(R.array.option3_world_geography_question);
+        String[] options4 = getResources().getStringArray(R.array.option4_world_geography_question);
+
+        // Load correct answers for each question
+        String[] correctOptions = getResources().getStringArray(R.array.world_geography_correctOptions);
 
 
-            // Create QuizModel objects
-            List<QuizModel> list = new ArrayList<>();
-            for (int i = 0; i < questions.length; i++) {
-                // Assuming options1.length == options2.length == ... (same number of options for each question)
-                list.add(new QuizModel(questions[i], options1[i], options2[i], options3[i], options4[i], correctOptions[i]));
-            }
-
-            // Use the 'list' containing QuizModel objects as needed
-            allQuestion = 5;
-            listSize = String.valueOf(allQuestion);
-            binding.totalQuestionNum.setText("/" + listSize);
-
-            if (position != allQuestion) {
-                positionNo = String.valueOf(position + 1);
-                binding.CurrentQuestionNum.setText(positionNo);
-            } else {
-                positionNo = String.valueOf(position);
-                binding.CurrentQuestionNum.setText(positionNo);
-            }
-
-            quizModel = list.get(position);
-            answer = quizModel.getCorrectAns();
-
-            binding.questionName.setText(quizModel.getQuestion());
-            binding.option1.setText(quizModel.getOp1());
-            binding.option2.setText(quizModel.getOp2());
-            binding.option3.setText(quizModel.getOp3());
-            binding.option4.setText(quizModel.getOp4());
-
-            optionCheckUp();
-        } else {
-            // Handle the case when all questions have been answered
-            checkNext();
+        // Create QuizModel objects
+        List<QuizModel> list = new ArrayList<>();
+        for (int i = 0; i < questions.length; i++) {
+            // Assuming options1.length == options2.length == ... (same number of options for each question)
+            list.add(new QuizModel(questions[i], options1[i], options2[i], options3[i], options4[i], correctOptions[i]));
         }
 
-            // Comment out the existing list initialization
-            ArrayList<QuizModel> list = new ArrayList<>();
+        // Use the 'list' containing QuizModel objects as needed
+        allQuestion = 5;
+        listSize = String.valueOf(allQuestion);
+        binding.totalQuestionNum.setText("/" + listSize);
+
+        if (position != allQuestion) {
+            positionNo = String.valueOf(position + 1);
+            binding.CurrentQuestionNum.setText(positionNo);
+        } else {
+            positionNo = String.valueOf(position);
+            binding.CurrentQuestionNum.setText(positionNo);
+        }
+
+        quizModel = list.get(position);
+        answer = quizModel.getCorrectAns();
+
+        binding.questionName.setText(quizModel.getQuestion());
+        binding.option1.setText(quizModel.getOp1());
+        binding.option2.setText(quizModel.getOp2());
+        binding.option3.setText(quizModel.getOp3());
+        binding.option4.setText(quizModel.getOp4());
+
+        optionCheckUp();
+
 
     }
 
