@@ -142,6 +142,105 @@
         <item>Discover the poet behind the hauntingly beautiful poem "The Raven."</item>
     </string-array>
 
+    <!-- Arts and Culture Category -->
+    <string-array name="arts_and_culture_questions">
+        <item>Who painted the Mona Lisa?</item>
+        <item>What art movement is characterized by bright colors and bold shapes?</item>
+        <item>Which famous architect designed the Sydney Opera House?</item>
+        <item>What is the name of the traditional Japanese tea ceremony?</item>
+        <item>Who is known as the "father of modern dance"?</item>
+    </string-array>
+
+    <string-array name="arts_and_culture_descriptions">
+        <item>Explore the world of visual arts with questions about iconic paintings and painters.</item>
+        <item>Learn about art movements that have left a lasting impact on the art world.</item>
+        <item>Discover the architects behind some of the world's most famous landmarks.</item>
+        <item>Immerse yourself in the traditions of Japanese culture with questions about tea ceremonies.</item>
+        <item>Understand the contributions of influential figures in the field of modern dance.</item>
+    </string-array>
+
+    <!-- Food and Drink Category -->
+    <string-array name="food_and_drink_questions">
+        <item>What is the main ingredient in guacamole?</item>
+        <item>Which country is known for inventing sushi?</item>
+        <item>What is the primary ingredient in the Italian dish risotto?</item>
+        <item>Which type of wine is often paired with seafood?</item>
+        <item>What is the national dish of India?</item>
+    </string-array>
+
+    <string-array name="food_and_drink_descriptions">
+        <item>Test your knowledge of popular dishes with questions about their main ingredients.</item>
+        <item>Explore the origins of international cuisine with questions about cultural food inventions.</item>
+        <item>Learn about the ingredients that make Italian risotto a delicious and comforting dish.</item>
+        <item>Discover the art of wine pairing with questions about matching wines with specific foods.</item>
+        <item>Explore the rich and diverse flavors of Indian cuisine with questions about its national dish.</item>
+    </string-array>
+
+    <!-- Mathematics Category -->
+    <string-array name="mathematics_questions">
+        <item>What is the value of pi (π) to two decimal places?</item>
+        <item>Which branch of mathematics deals with the properties of shapes and figures?</item>
+        <item>What is the sum of the angles in a triangle?</item>
+        <item>Who is known for the development of calculus?</item>
+        <item>What is the Pythagorean theorem?</item>
+    </string-array>
+
+    <string-array name="mathematics_descriptions">
+        <item>Test your knowledge of mathematical constants with questions about the value of pi.</item>
+        <item>Explore different branches of mathematics with questions about geometry and shapes.</item>
+        <item>Understand the fundamental principles of geometry with questions about triangle angles.</item>
+        <item>Learn about influential mathematicians who made significant contributions to calculus.</item>
+        <item>Discover the famous theorem that relates the sides of a right triangle.</item>
+    </string-array>
+
+    <!-- Language and Words Category -->
+    <string-array name="language_and_words_questions">
+        <item>What is the longest word in the English language?</item>
+        <item>Which language has the most native speakers in the world?</item>
+        <item>What is an anagram of the word "listen"?</item>
+        <item>Who is the author of the play "Romeo and Juliet"?</item>
+        <item>What is the term for a word that is spelled the same backward as forward?</item>
+    </string-array>
+
+    <string-array name="language_and_words_descriptions">
+        <item>Test your knowledge of the English language with questions about long words.</item>
+        <item>Explore linguistic diversity with questions about languages with the most native speakers.</item>
+        <item>Challenge your word skills with questions about anagrams and wordplay.</item>
+        <item>Test your knowledge of classic literature with questions about famous playwrights.</item>
+        <item>Learn about words that form the same word when spelled backward.</item>
+    </string-array>
+
+    <!-- Nature and Environment Category -->
+    <string-array name="nature_and_environment_questions">
+        <item>What is the largest mammal on Earth?</item>
+        <item>Which gas makes up the majority of Earth's atmosphere?</item>
+        <item>What is the process by which plants make their own food using sunlight?</item>
+        <item>What is the term for the loss of a species from a particular habitat?</item>
+        <item>Which planet is known as the "Red Planet"?</item>
+    </string-array>
+
+    <string-array name="nature_and_environment_descriptions">
+        <item>Explore the wonders of the natural world with questions about Earth's largest mammals.</item>
+        <item>Learn about the composition of Earth's atmosphere with questions about major gases.</item>
+        <item>Understand the process of photosynthesis with questions about how plants produce their own food.</item>
+        <item>Explore ecological concepts with questions about the loss of species from specific habitats.</item>
+        <item>Discover interesting facts about the fourth planet from the Sun, known as the "Red Planet."</item>
+    </string-array>
+
+    <!-- Mythology Category -->
+    <string-array name="mythology_questions">
+        <item>Who is the king of the gods in Greek mythology?</item>
+        <item>What is the name of the Norse god of thunder?</item>
+        <item>Which mythical creature is part lion and part eagle?</item>
+        <item>Who is the goddess of wisdom in ancient Greek mythology?</item>
+        <item>What is the Hindu god of creation and destruction?</item>
+    </string-array>
+
+    <string-array name="mythology_descriptions">
+    <item>Explore ancient Greek mythology with questions about the king of the gods.</item>
+    <item>Learn about Norse mythology with questions about the god associated with thunder.</item>
+    <item>Discover mythical creatures with questions about creatures that combine different animals.</item>
+    <item>Explore the pantheon of
 
 
 </resources>
