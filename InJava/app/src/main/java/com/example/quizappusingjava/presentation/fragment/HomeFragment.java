@@ -32,17 +32,39 @@ public class HomeFragment extends Fragment {
         return binding.getRoot();
     }
 
-    private void LoadData() {
+//    private void LoadData() {
+//
+//        binding.homeRecyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+//        list.clear();
+//        list.add(new HomeModel("Category 1", "Description 1"));
+//        list.add(new HomeModel("Category 2", "Description 2"));
+//        list.add(new HomeModel("Category 3", "Description 3"));
+//        list.add(new HomeModel("Category 4", "Description 4"));
+//        list.add(new HomeModel("Category 5", "Description 5"));
+//
+//        adapter = new HomeAdapter(getContext(), list);
+//        binding.homeRecyclerView.setAdapter(adapter);
+//    }
 
+    private void LoadData() {
         binding.homeRecyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         list.clear();
-        list.add(new HomeModel("Category 1", "Description 1"));
-        list.add(new HomeModel("Category 2", "Description 2"));
-        list.add(new HomeModel("Category 3", "Description 3"));
-        list.add(new HomeModel("Category 4", "Description 4"));
-        list.add(new HomeModel("Category 5", "Description 5"));
+
+        // Retrieve category names and descriptions from string arrays
+        String[] categoryNames = getResources().getStringArray(R.array.category_names);
+        String[] descriptions = getResources().getStringArray(R.array.category_descriptions);
+
+        // Ensure the arrays have the same length
+        int length = Math.min(categoryNames.length, descriptions.length);
+
+        // Load data from string arrays
+        for (int i = 0; i < length; i++) {
+            list.add(new HomeModel(categoryNames[i], descriptions[i]));
+        }
 
         adapter = new HomeAdapter(getContext(), list);
         binding.homeRecyclerView.setAdapter(adapter);
     }
+
+
 }
