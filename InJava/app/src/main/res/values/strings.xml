@@ -154,7 +154,7 @@
     <string-array name="arts_and_culture_descriptions">
         <item>Explore the world of visual arts with questions about iconic paintings and painters.</item>
         <item>Learn about art movements that have left a lasting impact on the art world.</item>
-        <item>Discover the architects behind some of the world's most famous landmarks.</item>
+        <item>Discover the architects behind some of the world\'s most famous landmarks.</item>
         <item>Immerse yourself in the traditions of Japanese culture with questions about tea ceremonies.</item>
         <item>Understand the contributions of influential figures in the field of modern dance.</item>
     </string-array>
@@ -213,15 +213,15 @@
     <!-- Nature and Environment Category -->
     <string-array name="nature_and_environment_questions">
         <item>What is the largest mammal on Earth?</item>
-        <item>Which gas makes up the majority of Earth's atmosphere?</item>
+        <item>Which gas makes up the majority of Earth\'s atmosphere?</item>
         <item>What is the process by which plants make their own food using sunlight?</item>
         <item>What is the term for the loss of a species from a particular habitat?</item>
         <item>Which planet is known as the "Red Planet"?</item>
     </string-array>
 
     <string-array name="nature_and_environment_descriptions">
-        <item>Explore the wonders of the natural world with questions about Earth's largest mammals.</item>
-        <item>Learn about the composition of Earth's atmosphere with questions about major gases.</item>
+        <item>Explore the wonders of the natural world with questions about Earth\'s largest mammals.</item>
+        <item>Learn about the composition of Earth\'s atmosphere with questions about major gases.</item>
         <item>Understand the process of photosynthesis with questions about how plants produce their own food.</item>
         <item>Explore ecological concepts with questions about the loss of species from specific habitats.</item>
         <item>Discover interesting facts about the fourth planet from the Sun, known as the "Red Planet."</item>
@@ -237,10 +237,12 @@
     </string-array>
 
     <string-array name="mythology_descriptions">
-    <item>Explore ancient Greek mythology with questions about the king of the gods.</item>
-    <item>Learn about Norse mythology with questions about the god associated with thunder.</item>
-    <item>Discover mythical creatures with questions about creatures that combine different animals.</item>
-    <item>Explore the pantheon of
+        <item>Explore ancient Greek mythology with questions about the king of the gods.</item>
+        <item>Learn about Norse mythology with questions about the god associated with thunder.</item>
+        <item>Discover mythical creatures with questions about creatures that combine different animals.</item>
+        <item>Explore the pantheon of ancient Greek gods with questions about the goddess of wisdom.</item>
+        <item>Learn about Hindu mythology with questions about the god responsible for creation and destruction.</item>
+    </string-array>
 
 
 </resources>
