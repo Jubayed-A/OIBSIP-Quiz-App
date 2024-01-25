@@ -244,11 +244,6 @@ public class SubFragment extends Fragment {
         }
 
 
-        // Load data from string arrays
-//        for (int i = 0; i < length; i++) {
-//            list.add(new HomeModel(subcategoryNames[i], descriptions[i]));
-//        }
-
         adapter = new SubAdapter(getContext(), list);
         binding.subRecyclerView.setAdapter(adapter);
     }
