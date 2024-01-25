@@ -36,92 +36,115 @@
         <item>Mythology Category</item>
     </string-array>
 
-    <!--general category name here-->
-    <string-array name="general_sub_category">
-        <item>General Knowledge Sub Category</item>
-        <item>Sub 1 Category2</item>
-        <item>Technology Category</item>
-        <item>Entertainment Category</item>
-    </string-array>
-    <!--general category description name here-->
-    <string-array name="general_sub_category_description">
-        <item>General Knowledge Sub Category</item>
-        <item>Sub 1 Category2</item>
-        <item>Technology Category</item>
-        <item>Entertainment Category</item>
+    <!-- General Knowledge Sub Categories -->
+    <string-array name="general_knowledge_sub_categories">
+        <item>World Geography</item>
+        <item>History and Civilization</item>
+        <item>Science and Technology</item>
+        <item>Current Affairs</item>
+        <item>General Science</item>
+        <item>Famous Personalities</item>
+        <!-- Add more subcategories for General Knowledge as needed -->
     </string-array>
 
-    <!--Science category name here-->
-    <string-array name="Science_sub_category">
-        <item>Science Knowledge Sub Category</item>
-        <item>Sub 1 Category2</item>
-        <item>Technology Category</item>
-        <item>Entertainment Category</item>
-    </string-array>
-    <!--Science category description name here-->
-    <string-array name="Science_sub_category_description">
-        <item>General Knowledge Sub Category</item>
-        <item>Sub 1 Category2</item>
-        <item>Technology Category</item>
-        <item>Entertainment Category</item>
+    <string-array name="general_knowledge_sub_categories_description">
+        <item>Explore the world\'s continents, countries, and landmarks.</item>
+        <item>Learn about historical events, cultures, and civilizations.</item>
+        <item>Discover advancements in science and the latest technologies.</item>
+        <item>Stay informed about current events and news from around the globe.</item>
+        <item>Understand fundamental principles of physics, chemistry, and biology.</item>
+        <item>Get to know influential figures who have made a significant impact.</item>
+        <!-- Add more descriptions for General Knowledge subcategories as needed -->
     </string-array>
 
-    <!--Technology  category name here-->
-    <string-array name="Technology_sub_category">
-        <item>Technology Knowledge Sub Category</item>
-        <item>Sub 1 Category2</item>
-        <item>Technology Category</item>
-        <item>Entertainment Category</item>
-    </string-array>
-    <!--Technology category description name here-->
-    <string-array name="Technology_sub_category_description">
-        <item>General Knowledge Sub Category</item>
-        <item>Sub 1 Category2</item>
-        <item>Technology Category</item>
-        <item>Entertainment Category</item>
+
+    <!-- Science Category -->
+    <string-array name="science_questions">
+        <item>What is the chemical symbol for water?</item>
+        <item>Who is considered the father of modern physics?</item>
+        <item>How does photosynthesis occur in plants?</item>
+        <item>What is the largest planet in our solar system?</item>
+        <item>What is the speed of light in a vacuum?</item>
     </string-array>
 
-    <!--Entertainment category name here-->
-    <string-array name="Entertainment_sub_category">
-        <item>General Knowledge Sub Category</item>
-        <item>Sub 1 Category2</item>
-        <item>Technology Category</item>
-        <item>Entertainment Category</item>
-    </string-array>
-    <!--Entertainment category description name here-->
-    <string-array name="Entertainment_sub_category_description">
-        <item>Entertainment Knowledge Sub Category</item>
-        <item>Sub 1 Category2</item>
-        <item>Technology Category</item>
-        <item>Entertainment Category</item>
+    <string-array name="science_descriptions">
+        <item>Explore the world of chemistry and biology with questions about elements and compounds.</item>
+        <item>Learn about groundbreaking scientists and their contributions to the field of physics.</item>
+        <item>Understand the process by which plants convert sunlight into energy.</item>
+        <item>Discover facts about the planets in our solar system, including their sizes and characteristics.</item>
+        <item>Delve into the fundamentals of physics with questions about the speed of light and related concepts.</item>
     </string-array>
 
-    <!--Sports category name here-->
-    <string-array name="Sports_sub_category">
-        <item>Sports Knowledge Sub Category</item>
-        <item>Sub 1 Category2</item>
-        <item>Technology Category</item>
-        <item>Entertainment Category</item>
+    <!-- Technology Category -->
+    <string-array name="technology_questions">
+        <item>Who co-founded Microsoft along with Bill Gates?</item>
+        <item>What is the significance of Moore\'s Law in computing?</item>
+        <item>Which programming language is often used for mobile app development?</item>
+        <item>What does the acronym "URL" stand for?</item>
+        <item>Which company is known for producing the iPhone and iPad?</item>
     </string-array>
-    <!--Sports category description name here-->
-    <string-array name="Sports_sub_category_description">
-        <item>Sports Knowledge Sub Category</item>
-        <item>Sub 1 Category2</item>
-        <item>Technology Category</item>
-        <item>Entertainment Category</item>
+
+    <string-array name="technology_descriptions">
+        <item>Explore the history of technology and its pioneers with questions about notable figures.</item>
+        <item>Understand the impact of Moore\'s Law on the development of computer technology.</item>
+        <item>Learn about programming languages commonly used in creating applications for mobile devices.</item>
+        <item>Discover the meaning behind common technology-related acronyms, such as "URL."</item>
+        <item>Get insights into companies that have played a significant role in the tech industry.</item>
+    </string-array>
+
+    <!-- Entertainment Category -->
+    <string-array name="entertainment_questions">
+        <item>Who won the Academy Award for Best Actor in 2021?</item>
+        <item>Which film is often considered the highest-grossing of all time?</item>
+        <item>Who is known as the "Queen of Pop" in the music industry?</item>
+        <item>What is the name of the fictional wizarding school in the Harry Potter series?</item>
+        <item>Which TV series features the phrase "Winter is coming"?</item>
+    </string-array>
+
+    <string-array name="entertainment_descriptions">
+        <item>Stay updated on the world of entertainment with questions about recent award winners.</item>
+        <item>Explore the realm of cinema with questions about box office records and popular films.</item>
+        <item>Learn about iconic figures in the music industry and their nicknames.</item>
+        <item>Immerse yourself in the magical world of literature with questions about famous wizarding schools.</item>
+        <item>Test your knowledge of popular TV series with questions about famous catchphrases.</item>
+    </string-array>
+
+    <!-- Sports Category -->
+    <string-array name="sports_questions">
+        <item>Who holds the record for the most Olympic gold medals in swimming?</item>
+        <item>Which country hosted the FIFA World Cup in 2018?</item>
+        <item>Who is often referred to as "The Greatest" in the history of boxing?</item>
+        <item>What is the highest score ever achieved in a single NBA game?</item>
+        <item>Which tennis player has won the most Grand Slam singles titles?</item>
+    </string-array>
+
+    <string-array name="sports_descriptions">
+        <item>Explore the world of swimming and the achievements of record-breaking Olympic athletes.</item>
+        <item>Test your knowledge of FIFA World Cup history with questions about host countries.</item>
+        <item>Learn about legendary boxers and their impact on the sport of boxing.</item>
+        <item>Discover remarkable performances in NBA history with questions about high scores.</item>
+        <item>Get insights into the achievements of tennis players who have excelled in Grand Slam events.</item>
     </string-array>
 
     <!-- Literature Category -->
-    <string-array name="Literature_sub_category">
-        <item>Literature Sub Category 1</item>
-        <item>Literature Sub Category 2</item>
-        <!-- Add more subcategories for Literature as needed -->
+    <string-array name="literature_questions">
+        <item>Who wrote the play "Romeo and Juliet"?</item>
+        <item>What is the main theme of the novel "1984" by George Orwell?</item>
+        <item>Which author is known for the "Harry Potter" book series?</item>
+        <item>What is the title of Jane Austen\'s most famous novel?</item>
+        <item>Who wrote the poem "The Raven"?</item>
     </string-array>
-    <string-array name="Literature_sub_category_description">
-        <item>Description for Literature Sub Category 1</item>
-        <item>Description for Literature Sub Category 2</item>
-        <!-- Add more descriptions for Literature subcategories as needed -->
+
+    <string-array name="literature_descriptions">
+        <item>Explore the world of classic literature with questions about famous playwrights.</item>
+        <item>Discuss the themes and dystopian elements of George Orwell\'s novel "1984."</item>
+        <item>Test your knowledge of modern literature with questions about popular book series.</item>
+        <item>Learn about the works of Jane Austen, a prominent figure in English literature.</item>
+        <item>Discover the poet behind the hauntingly beautiful poem "The Raven."</item>
     </string-array>
+
+    <!-- Arts and Culture Category -->
+
 
     <!-- Arts and Culture Category -->
     <string-array name="Arts_and_Culture_sub_category">
