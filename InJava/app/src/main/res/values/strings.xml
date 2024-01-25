@@ -7,18 +7,18 @@
 
     <!--category name here-->
     <string-array name="category_names">
-        <item>General Knowledge Category</item>
-        <item>Science Category</item>
-        <item>Technology Category</item>
-        <item>Entertainment Category</item>
-        <item>Sports Category</item>
-        <item>Literature Category</item>
-        <item>Arts and Culture Category</item>
-        <item>Food and Drink Category</item>
-        <item>Mathematics Category</item>
-        <item>Language and Words Category</item>
-        <item>Nature and Environment Category</item>
-        <item>Mythology Category</item>
+        <item>General Knowledge</item>
+        <item>Science</item>
+        <item>Technology</item>
+        <item>Entertainment</item>
+        <item>Sports</item>
+        <item>Literature</item>
+        <item>Arts and Culture</item>
+        <item>Food and Drink</item>
+        <item>Mathematics</item>
+        <item>Language and Words</item>
+        <item>Nature and Environment</item>
+        <item>Mythology</item>
     </string-array>
     <!--category description name here-->
     <string-array name="category_descriptions">
