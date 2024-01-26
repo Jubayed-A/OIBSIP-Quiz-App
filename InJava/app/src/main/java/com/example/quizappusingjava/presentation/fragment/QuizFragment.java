@@ -18,8 +18,8 @@ import java.util.List;
 import java.util.Objects;
 
 public class QuizFragment extends Fragment {
-    private int position = 0, right = 0, wrong = 0;
-    private static String answer = null;
+    private int position = 0;
+    private int right = 0;
     FragmentQuizBinding binding;
     ArrayList<QuizModel> list = new ArrayList<>();
     int allQuestion;
@@ -75,38 +75,38 @@ public class QuizFragment extends Fragment {
     }
 
     private void LoadQuestion() {
-/*     list.add(new QuizModel("Question 1", "Op1", "Op2", "Op3", "Op4", "Op2"));
+     list.add(new QuizModel("Question 1", "Op1", "Op2", "Op3", "Op4", "Op2"));
         list.add(new QuizModel("Question 2", "Op1", "Op2", "Op3", "Op4", "Op1"));
         list.add(new QuizModel("Question 3", "Op1", "Op2", "Op3", "Op4", "Op3"));
         list.add(new QuizModel("Question 4", "Op1", "Op2", "Op3", "Op4", "Op2"));
-        list.add(new QuizModel("Question 5", "Op1", "Op2", "Op3", "Op4", "Op4"));*/
+        list.add(new QuizModel("Question 5", "Op1", "Op2", "Op3", "Op4", "Op4"));
 
-        // Load questions
-        String[] questions = getResources().getStringArray(R.array.world_geography_10_questions);
-        String[] questions2 = getResources().getStringArray(R.array.history_civilization_questions);
-        String[] questions3 = getResources().getStringArray(R.array.science_technology_questions);
-        String[] questions4 = getResources().getStringArray(R.array.current_affairs_questions);
-        String[] questions5 = getResources().getStringArray(R.array.general_science_questions);
-        String[] questions6 = getResources().getStringArray(R.array.famous_personalities_questions);
-
-        // Check if position is within bounds
-
-        // Load options for each question
-        String[] options1 = getResources().getStringArray(R.array.option1_world_geography_question);
-        String[] options2 = getResources().getStringArray(R.array.option2_world_geography_question);
-        String[] options3 = getResources().getStringArray(R.array.option3_world_geography_question);
-        String[] options4 = getResources().getStringArray(R.array.option4_world_geography_question);
-
-        // Load correct answers for each question
-        String[] correctOptions = getResources().getStringArray(R.array.world_geography_correctOptions);
-
-
-        // Create QuizModel objects
-        List<QuizModel> list = new ArrayList<>();
-        for (int i = 0; i < questions.length; i++) {
-            // Assuming options1.length == options2.length == ... (same number of options for each question)
-            list.add(new QuizModel(questions[i], options1[i], options2[i], options3[i], options4[i], correctOptions[i]));
-        }
+//        // Load questions
+//        String[] questions = getResources().getStringArray(R.array.world_geography_10_questions);
+//        String[] questions2 = getResources().getStringArray(R.array.history_civilization_questions);
+//        String[] questions3 = getResources().getStringArray(R.array.science_technology_questions);
+//        String[] questions4 = getResources().getStringArray(R.array.current_affairs_questions);
+//        String[] questions5 = getResources().getStringArray(R.array.general_science_questions);
+//        String[] questions6 = getResources().getStringArray(R.array.famous_personalities_questions);
+//
+//        // Check if position is within bounds
+//
+//        // Load options for each question
+//        String[] options1 = getResources().getStringArray(R.array.option1_world_geography_question);
+//        String[] options2 = getResources().getStringArray(R.array.option2_world_geography_question);
+//        String[] options3 = getResources().getStringArray(R.array.option3_world_geography_question);
+//        String[] options4 = getResources().getStringArray(R.array.option4_world_geography_question);
+//
+//        // Load correct answers for each question
+//        String[] correctOptions = getResources().getStringArray(R.array.world_geography_correctOptions);
+//
+//
+//        // Create QuizModel objects
+//        List<QuizModel> list = new ArrayList<>();
+//        for (int i = 0; i < questions.length; i++) {
+//            // Assuming options1.length == options2.length == ... (same number of options for each question)
+//            list.add(new QuizModel(questions[i], options1[i], options2[i], options3[i], options4[i], correctOptions[i]));
+//        }
 
         // Use the 'list' containing QuizModel objects as needed
         allQuestion = 5;
@@ -122,7 +122,6 @@ public class QuizFragment extends Fragment {
         }
 
         quizModel = list.get(position);
-        answer = quizModel.getCorrectAns();
 
         binding.questionName.setText(quizModel.getQuestion());
         binding.option1.setText(quizModel.getOp1());
@@ -134,6 +133,94 @@ public class QuizFragment extends Fragment {
 
 
     }
+
+//    private void LoadQuestion() {
+//        // Arrays of questions, options, and correct answers for different sections
+//        String[][] questionsArray = {
+//                getResources().getStringArray(R.array.world_geography_10_questions),
+//                getResources().getStringArray(R.array.history_civilization_questions),
+//                getResources().getStringArray(R.array.science_technology_questions),
+//                getResources().getStringArray(R.array.current_affairs_questions),
+//                getResources().getStringArray(R.array.general_science_questions),
+//                getResources().getStringArray(R.array.famous_personalities_questions)
+//        };
+//
+//        String[][] options1Array = {
+//                getResources().getStringArray(R.array.option1_world_geography_question),
+//                getResources().getStringArray(R.array.history_civilization_option1),
+//                getResources().getStringArray(R.array.science_technology_option1),
+//                getResources().getStringArray(R.array.current_affairs_option1),
+//                getResources().getStringArray(R.array.general_science_option1),
+//                getResources().getStringArray(R.array.famous_personalities_option1)
+//        };
+//
+//        String[][] options2Array = {
+//                getResources().getStringArray(R.array.option2_world_geography_question),
+//                getResources().getStringArray(R.array.history_civilization_option2),
+//                getResources().getStringArray(R.array.science_technology_option2),
+//                getResources().getStringArray(R.array.current_affairs_option2),
+//                getResources().getStringArray(R.array.general_science_option2),
+//                getResources().getStringArray(R.array.famous_personalities_option2)
+//        };
+//
+//        String[][] options3Array = {
+//                getResources().getStringArray(R.array.option3_world_geography_question),
+//                getResources().getStringArray(R.array.history_civilization_option3),
+//                getResources().getStringArray(R.array.science_technology_option3),
+//                getResources().getStringArray(R.array.current_affairs_option3),
+//                getResources().getStringArray(R.array.general_science_option3),
+//                getResources().getStringArray(R.array.famous_personalities_option4)
+//        };
+//
+//        String[][] options4Array = {
+//                getResources().getStringArray(R.array.option4_world_geography_question),
+//                getResources().getStringArray(R.array.history_civilization_option4),
+//                getResources().getStringArray(R.array.science_technology_option4),
+//                getResources().getStringArray(R.array.current_affairs_option4),
+//                getResources().getStringArray(R.array.general_science_option4),
+//                getResources().getStringArray(R.array.famous_personalities_option4)
+//        };
+//
+//        String[][] correctOptionsArray = {
+//                getResources().getStringArray(R.array.world_geography_correctOptions),
+//                getResources().getStringArray(R.array.history_civilization_correct_answers),
+//                getResources().getStringArray(R.array.science_technology_correct_answers),
+//                getResources().getStringArray(R.array.current_affairs_correct_answers),
+//                getResources().getStringArray(R.array.general_science_correct_answers),
+//                getResources().getStringArray(R.array.famous_personalities_correct_answers)
+//        };
+//
+//        // Check if the position is within the bounds of available sections
+//        if (position >= 0 && position < questionsArray.length) {
+//            String[] questions = questionsArray[position];
+//            String[] options1 = options1Array[position];
+//            String[] options2 = options2Array[position];
+//            String[] options3 = options3Array[position];
+//            String[] options4 = options4Array[position];
+//            String[] correctOptions = correctOptionsArray[position];
+//
+//            allQuestion = questions.length;
+//            listSize = String.valueOf(allQuestion);
+//            binding.totalQuestionNum.setText("/" + listSize);
+//
+//            positionNo = String.valueOf(position + 1);
+//            binding.CurrentQuestionNum.setText(positionNo);
+//
+//            quizModel = new QuizModel(questions[position], options1[position], options2[position],
+//                    options3[position], options4[position], correctOptions[position]);
+//
+//            answer = quizModel.getCorrectAns();
+//
+//            binding.questionName.setText(quizModel.getQuestion());
+//            binding.option1.setText(quizModel.getOp1());
+//            binding.option2.setText(quizModel.getOp2());
+//            binding.option3.setText(quizModel.getOp3());
+//            binding.option4.setText(quizModel.getOp4());
+//
+//            optionCheckUp();
+//        }
+//    }
+
 
     private void optionCheckUp() {
 
