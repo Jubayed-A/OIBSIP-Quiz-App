@@ -47,7 +47,7 @@ public class QuizFragment extends Fragment {
 
     private void checkNext() {
         if (position == allQuestion) {
-            getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout,
+            getParentFragmentManager().beginTransaction().replace(R.id.frameLayout,
                     new ResultFragment(right, allQuestion)).commit();
             list.clear();
             position = 0;
