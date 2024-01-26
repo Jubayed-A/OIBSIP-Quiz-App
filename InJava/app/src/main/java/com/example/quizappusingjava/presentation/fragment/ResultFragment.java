@@ -33,12 +33,12 @@ public class ResultFragment extends Fragment {
         binding.score.setText("You got " + right + " out of " + allQuestion);
 
         binding.exploreBtn.setOnClickListener(v -> {
-            getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout,
+            getParentFragmentManager().beginTransaction().replace(R.id.frameLayout,
                     new SubFragment()).commit();
         });
 
         binding.repeat.setOnClickListener(v -> {
-            getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout,
+            getParentFragmentManager().beginTransaction().replace(R.id.frameLayout,
                     new QuizFragment()).commit();
         });
 
