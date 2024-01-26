@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- World Geography Category - 10 Questions with Options -->
+    <string-array name="world_geography_10_questions">
+        <!-- Question 1 -->
+        <item>What is the capital city of Japan?</item>
+        <!-- Question 2 -->
+        <item>Which river runs through Egypt?</item>
+        <!-- Question 3 -->
+        <item>In which continent is the Amazon Rainforest located?</item>
+        <!-- Question 4 -->
+        <item>What is the largest ocean on Earth?</item>
+        <!-- Question 5 -->
+        <item>Which country is known as the "Land Down Under"?</item>
+        <!-- Question 6 -->
+        <item>What is the capital city of Brazil?</item>
+        <!-- Question 7 -->
+        <item>Which desert is located in the southwestern United States?</item>
+        <!-- Question 8 -->
+        <item>What is the southernmost continent on Earth?</item>
+        <!-- Question 9 -->
+        <item>Which African country is known as the "Rainbow Nation"?</item>
+        <!-- Question 10 -->
+        <item>What is the tallest mountain in North America?</item>
+
+    </string-array>
+    <!-- world_geography   option load -->
+    <string-array name="option1_world_geography_question">
+        <item>Seoul</item>
+        <item>Nile</item>
+        <item>South America</item>
+        <item>Atlantic</item>
+        <item>New Zealand</item>
+        <item>Brasilia</item>
+        <item>Sahara Desert</item>
+        <item>Australia</item>
+        <item>Kenya</item>
+        <item>Mt. Everest</item>
+    </string-array>
+    <string-array name="option2_world_geography_question">
+        <item>Tokyo</item>
+        <item>Amazon</item>
+        <item>Africa</item>
+        <item>Indian</item>
+        <item>South Africa</item>
+        <item>Rio de Janeiro</item>
+        <item>Atacama Desert</item>
+        <item>Antarctica</item>
+        <item>Nigeria</item>
+        <item>Aconcagua</item>
+    </string-array>
+    <string-array name="option3_world_geography_question">
+        <item>Beijing</item>
+        <item>Ganges</item>
+        <item>Asia</item>
+        <item>Pacific</item>
+        <item>Australia</item>
+        <item>São Paulo</item>
+        <item>Gobi Desert</item>
+        <item>South America</item>
+        <item>South Africa</item>
+        <item>Denali (formerly Mount McKinley)</item>
+    </string-array>
+    <string-array name="option4_world_geography_question">
+        <item>Bangkok</item>
+        <item>Mississippi</item>
+        <item>North America</item>
+        <item>Arctic</item>
+        <item>Brazil</item>
+        <item>Buenos Aires</item>
+        <item>Sonoran Desert</item>
+        <item>Africa</item>
+        <item>Ghana</item>
+        <item>K2</item>
+    </string-array>
+
+    <!--world_geography correct option load-->
+    <string-array name="world_geography_correctOptions">
+        <item>Tokyo</item>
+        <item>Nile</item>
+        <item>South America</item>
+        <item>Pacific</item>
+        <item>Australia</item>
+        <item>Brasilia</item>
+        <item>Sonoran Desert</item>
+        <item>Antarctica</item>
+        <item>South Africa</item>
+        <item>Denali (formerly Mount McKinley)</item>
+    </string-array>
+
+
+    <!-- History and Civilization Category - Questions and Options -->
+    <!-- Questions -->
+    <string-array name="history_civilization_questions">
+        <item>Who was the first President of the United States?</item>
+        <item>In which year did the Titanic sink?</item>
+        <item>What ancient civilization built the pyramids in Egypt?</item>
+        <item>Who wrote the play "Romeo and Juliet"?</item>
+        <item>Which war is also known as the Great War?</item>
+    </string-array>
+    <!-- Options - Option 1 -->
+    <string-array name="history_civilization_option1">
+        <item>George Washington</item>
+        <item>1912</item>
+        <item>Ancient Egyptians</item>
+        <item>William Shakespeare</item>
+        <item>World War I</item>
+    </string-array>
+    <!-- Options - Option 2 -->
+    <string-array name="history_civilization_option2">
+        <item>Thomas Jefferson</item>
+        <item>1905</item>
+        <item>Mesopotamians</item>
+        <item>Jane Austen</item>
+        <item>World War II</item>
+    </string-array>
+    <!-- Options - Option 3 -->
+    <string-array name="history_civilization_option3">
+        <item>Abraham Lincoln</item>
+        <item>1920</item>
+        <item>Greeks</item>
+        <item>Charles Dickens</item>
+        <item>The Cold War</item>
+    </string-array>
+    <!-- Options - Option 4 -->
+    <string-array name="history_civilization_option4">
+        <item>John Adams</item>
+        <item>1917</item>
+        <item>Romans</item>
+        <item>Leo Tolstoy</item>
+        <item>The Korean War</item>
+    </string-array>
+    <!-- History and Civilization Category - Correct Answers -->
+    <string-array name="history_civilization_correct_answers">
+        <item>George Washington</item>
+        <item>1912</item>
+        <item>Ancient Egyptians</item>
+        <item>William Shakespeare</item>
+        <item>World War I</item>
+    </string-array>
+
+
+    <!-- Science and Technology Category - Questions -->
+    <string-array name="science_technology_questions">
+        <!-- Question 1 -->
+        <item>Who is known as the father of modern physics?</item>
+        <!-- Question 2 -->
+        <item>What is the chemical symbol for gold?</item>
+        <!-- Question 3 -->
+        <item>Which planet is known as the Red Planet?</item>
+        <!-- Question 4 -->
+        <item>Who developed the theory of relativity?</item>
+        <!-- Question 5 -->
+        <item>What is the largest mammal on Earth?</item>
+    </string-array>
+
+    <!-- Science and Technology Category - Options -->
+    <!-- Option Arrays for Question 1 -->
+    <string-array name="science_technology_option1">
+        <item>Albert Einstein</item>
+        <item>Au</item>
+        <item>Mars</item>
+        <item>Albert Einstein</item>
+        <item>Blue Whale</item>
+    </string-array>
+    <!-- Option Arrays for Question 2 -->
+    <string-array name="science_technology_option2">
+        <item>Isaac Newton</item>
+        <item>Ag</item>
+        <item>Venus</item>
+        <item>Stephen Hawking</item>
+        <item>African Elephant</item>
+    </string-array>
+    <!-- Option Arrays for Question 3 -->
+    <string-array name="science_technology_option3">
+        <item>Nikola Tesla</item>
+        <item>Fe</item>
+        <item>Jupiter</item>
+        <item>Isaac Newton</item>
+        <item>Giraffe</item>
+    </string-array>
+    <!-- Option Arrays for Question 4 -->
+    <string-array name="science_technology_option4">
+        <item>Marie Curie</item>
+        <item>Hg</item>
+        <item>Saturn</item>
+        <item>Galileo Galilei</item>
+        <item>Rhinoceros</item>
+    </string-array>
+    <!-- Science and Technology Category - Correct Answers -->
+    <string-array name="science_technology_correct_answers">
+        <item>Albert Einstein</item>
+        <item>Au</item>
+        <item>Mars</item>
+        <item>Albert Einstein</item>
+        <item>Blue Whale</item>
+    </string-array>
+
+
+    <!-- Current Affairs Category - Questions -->
+    <string-array name="current_affairs_questions">
+        <!-- Question 1 -->
+        <item>Who is the current President of the United States?</item>
+        <!-- Question 2 -->
+        <item>Which country recently hosted the Olympic Games?</item>
+        <!-- Question 3 -->
+        <item>What is the capital city of Australia?</item>
+        <!-- Question 4 -->
+        <item>Who won the Nobel Prize in Literature last year?</item>
+        <!-- Question 5 -->
+        <item>Which country recently launched a mission to Mars?</item>
+    </string-array>
+
+    <!-- Current Affairs Category - Options -->
+    <!-- Option Arrays for Question 1 -->
+    <string-array name="current_affairs_option1">
+        <item>Joe Biden</item>
+        <item>Japan</item>
+        <item>Canberra</item>
+        <item>Abhijit Banerjee</item>
+        <item>United Arab Emirates (UAE)</item>
+    </string-array>
+
+    <!-- Option Arrays for Question 2 -->
+    <string-array name="current_affairs_option2">
+        <item>Donald Trump</item>
+        <item>Brazil</item>
+        <item>Sydney</item>
+        <item>Bob Dylan</item>
+        <item>India</item>
+    </string-array>
+
+    <!-- Option Arrays for Question 3 -->
+    <string-array name="current_affairs_option3">
+        <item>Barack Obama</item>
+        <item>China</item>
+        <item>Melbourne</item>
+        <item>Toni Morrison</item>
+        <item>China</item>
+    </string-array>
+
+    <!-- Option Arrays for Question 4 -->
+    <string-array name="current_affairs_option4">
+        <item>George W. Bush</item>
+        <item>South Korea</item>
+        <item>Brisbane</item>
+        <item>Haruki Murakami</item>
+        <item>United States</item>
+    </string-array>
+
+    <!-- Current Affairs Category - Correct Answers -->
+    <string-array name="current_affairs_correct_answers">
+        <item>Joe Biden</item>
+        <item>Japan</item>
+        <item>Canberra</item>
+        <item>Bob Dylan</item>
+        <item>United Arab Emirates (UAE)</item>
+    </string-array>
+
+
+    <!-- General Science Category - Questions -->
+    <string-array name="general_science_questions">
+        <!-- Question 1 -->
+        <item>What is the chemical symbol for water?</item>
+        <!-- Question 2 -->
+        <item>Which gas do plants absorb during photosynthesis?</item>
+        <!-- Question 3 -->
+        <item>What is the process by which plants make their own food?</item>
+        <!-- Question 4 -->
+        <item>Which vitamin is essential for proper vision?</item>
+        <!-- Question 5 -->
+        <item>What is the unit of electric current?</item>
+    </string-array>
+
+    <!-- General Science Category - Options -->
+    <!-- Option Arrays for Question 1 -->
+    <string-array name="general_science_option1">
+        <item>H2O</item>
+        <item>Carbon Dioxide (CO2)</item>
+        <item>Photosynthesis</item>
+        <item>Vitamin A</item>
+        <item>Ampere (A)</item>
+    </string-array>
+
+    <!-- Option Arrays for Question 2 -->
+    <string-array name="general_science_option2">
+        <item>CO2</item>
+        <item>Oxygen (O2)</item>
+        <item>Respiration</item>
+        <item>Vitamin C</item>
+        <item>Watt (W)</item>
+    </string-array>
+
+    <!-- Option Arrays for Question 3 -->
+    <string-array name="general_science_option3">
+        <item>O2</item>
+        <item>Nitrogen (N2)</item>
+        <item>Transpiration</item>
+        <item>Vitamin D</item>
+        <item>Volt (V)</item>
+    </string-array>
+
+    <!-- Option Arrays for Question 4 -->
+    <string-array name="general_science_option4">
+        <item>N2</item>
+        <item>Methane (CH4)</item>
+        <item>Digestion</item>
+        <item>Vitamin E</item>
+        <item>Ohm (Ω)</item>
+    </string-array>
+
+    <!-- General Science Category - Correct Answers -->
+    <string-array name="general_science_correct_answers">
+        <item>H2O</item>
+        <item>Carbon Dioxide (CO2)</item>
+        <item>Photosynthesis</item>
+        <item>Vitamin A</item>
+        <item>Ampere (A)</item>
+    </string-array>
+
+    <!-- Famous Personalities Category - Questions -->
+    <string-array name="famous_personalities_questions">
+        <!-- Question 1 -->
+        <item>Who is known as the "Father of Computers"?</item>
+        <!-- Question 2 -->
+        <item>Which scientist formulated the laws of motion and universal gravitation?</item>
+        <!-- Question 3 -->
+        <item>Who wrote the famous play "Hamlet"?</item>
+        <!-- Question 4 -->
+        <item>Who is known as the "Queen of Pop" in the music industry?</item>
+        <!-- Question 5 -->
+        <item>Which famous scientist developed the theory of relativity?</item>
+        <!-- Question 6 -->
+        <item>Who is known as the "Queen of Soul"?</item>
+        <!-- Question 7 -->
+        <item>Which physicist developed the theory of quantum mechanics?</item>
+        <!-- Question 8 -->
+        <item>Who wrote the famous novel "To Kill a Mockingbird"?</item>
+        <!-- Question 9 -->
+        <item>Which artist is often referred to as the "King of Pop"?</item>
+        <!-- Question 10 -->
+        <item>Who is the co-founder of Microsoft along with Bill Gates?</item>
+    </string-array>
+    <!-- Famous Personalities Category - Options -->
+    <!-- Option Arrays for Question 1 -->
+    <string-array name="famous_personalities_option1">
+        <item>Charles Babbage</item>
+        <item>Isaac Newton</item>
+        <item>William Shakespeare</item>
+        <item>Madonna</item>
+        <item>Albert Einstein</item>
+        <item>Aretha Franklin</item>
+        <item>Max Planck</item>
+        <item>Harper Lee</item>
+        <item>Michael Jackson</item>
+        <item>Paul Allen</item>
+    </string-array>
+
+    <!-- Option Arrays for Question 2 -->
+    <string-array name="famous_personalities_option2">
+        <item>Bill Gates</item>
+        <item>Galileo Galilei</item>
+        <item>Jane Austen</item>
+        <item>Beyoncé</item>
+        <item>Stephen Hawking</item>
+        <item>Tina Turner</item>
+        <item>Albert Einstein</item>
+        <item>Ernest Hemingway</item>
+        <item>Elvis Presley</item>
+        <item>Steve Jobs</item>
+    </string-array>
+
+    <!-- Option Arrays for Question 3 -->
+    <string-array name="famous_personalities_option3">
+        <item>Steve Jobs</item>
+        <item>Nikola Tesla</item>
+        <item>Leo Tolstoy</item>
+        <item>Rihanna</item>
+        <item>Nikola Tesla</item>
+        <item>Diana Ross</item>
+        <item>Richard Feynman</item>
+        <item>J.K. Rowling</item>
+        <item>Prince</item>
+        <item>Warren Buffett</item>
+    </string-array>
+
+    <!-- Option Arrays for Question 4 -->
+    <string-array name="famous_personalities_option4">
+        <item>Mark Zuckerberg</item>
+        <item>Albert Einstein</item>
+        <item>Charles Dickens</item>
+        <item>Adele</item>
+        <item>Marie Curie</item>
+        <item>Whitney Houston</item>
+        <item>Niels Bohr</item>
+        <item>Harper Lee</item>
+        <item>Elton John</item>
+        <item>Larry Page</item>
+    </string-array>
+
+    <!-- Famous Personalities Category - Correct Answers -->
+    <string-array name="famous_personalities_correct_answers">
+        <item>Charles Babbage</item>
+        <item>Isaac Newton</item>
+        <item>William Shakespeare</item>
+        <item>Madonna</item>
+        <item>Albert Einstein</item>
+        <item>Aretha Franklin</item>
+        <item>Max Planck</item>
+        <item>Harper Lee</item>
+        <item>Michael Jackson</item>
+        <item>Paul Allen</item>
+    </string-array>
+
+</resources>
