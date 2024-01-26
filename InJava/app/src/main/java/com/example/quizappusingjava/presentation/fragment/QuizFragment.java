@@ -75,7 +75,7 @@ public class QuizFragment extends Fragment {
     }
 
     private void LoadQuestion() {
-        /*list.add(new QuizModel("Question 1", "Op1", "Op2", "Op3", "Op4", "Op2"));
+/*     list.add(new QuizModel("Question 1", "Op1", "Op2", "Op3", "Op4", "Op2"));
         list.add(new QuizModel("Question 2", "Op1", "Op2", "Op3", "Op4", "Op1"));
         list.add(new QuizModel("Question 3", "Op1", "Op2", "Op3", "Op4", "Op3"));
         list.add(new QuizModel("Question 4", "Op1", "Op2", "Op3", "Op4", "Op2"));
